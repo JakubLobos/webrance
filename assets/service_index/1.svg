@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="488" height="273" viewBox="0 0 488 273">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3, .cls-4, .cls-6 {
+        fill: #5099d4;
+      }
+
+      .cls-3 {
+        opacity: 0.14;
+      }
+
+      .cls-6 {
+        font-size: 6px;
+        font-family: Ubuntu-Bold, Ubuntu;
+        font-weight: 700;
+      }
+
+      .cls-7 {
+        letter-spacing: 0.03em;
+      }
+
+      .cls-8 {
+        fill: #ecb357;
+      }
+
+      .cls-9 {
+        fill: #214a6a;
+      }
+
+      .cls-10 {
+        fill: #3d6693;
+        opacity: 0.39;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="PH" class="cls-1" width="488" height="273" transform="translate(156 1404.499)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_2" data-name="Mask Group 2" class="cls-2" transform="translate(-156 -1404.499)">
+    <g id="Bez_nazwy-1" data-name="Bez nazwy-1" transform="translate(156 1427.234)">
+      <rect id="Rectangle_34" data-name="Rectangle 34" class="cls-3" width="308.76" height="173.91" rx="10.541" transform="translate(0 53.231)"/>
+      <rect id="Rectangle_35" data-name="Rectangle 35" class="cls-4" width="308.76" height="173.91" rx="10.541" transform="translate(13.64 41.218)"/>
+      <g id="Group_21" data-name="Group 21" transform="translate(27.047 46.245)">
+        <rect id="Rectangle_36" data-name="Rectangle 36" class="cls-5" width="246.012" height="8.99" rx="3.683" transform="translate(0 0.646)"/>
+        <text id="WWW" class="cls-6" transform="translate(6.522 7.641)"><tspan class="cls-7" x="0" y="0">WW</tspan><tspan y="0">W</tspan></text>
+      </g>
+      <path id="Path_24" data-name="Path 24" class="cls-5" d="M255.117,42.91l2.864-2.864a.94.94,0,0,0-1.329-1.329l-2.864,2.864-2.864-2.864a.94.94,0,1,0-1.329,1.329l2.864,2.864L249.6,45.774A.938.938,0,1,0,250.92,47.1l2.864-2.864,2.864,2.864a.938.938,0,0,0,1.325-1.329l-2.864-2.864Z" transform="translate(54.972 8.476)"/>
+      <path id="Line_3" data-name="Line 3" class="cls-5" d="M9.792.952H0A.952.952,0,0,1-.952,0,.952.952,0,0,1,0-.952H9.792A.952.952,0,0,1,10.745,0,.952.952,0,0,1,9.792.952Z" transform="translate(286.49 51.386)"/>
+      <path id="Path_25" data-name="Path 25" class="cls-3" d="M438.376,10.382h0c-2.678-5.138-7.855-3.325-12.993-.647L257.727,92.742a10.47,10.47,0,0,0-3.894,3.507c-6.363-1.093-14.725-1.5-23.13,4.049-11.373,7.506-7.8,20.41-25.78,28.47-8.389,3.759,24.815,5.495,36.421-.667,9.548-5.068,12.373-13.756,18.061-16.058a10.464,10.464,0,0,0,8.025-.7L432.292,21.283c5.138-2.678,8.758-5.766,6.08-10.9Z" transform="translate(44.887 1.568)"/>
+      <path id="Path_26" data-name="Path 26" class="cls-8" d="M11.23,104.086S41.3,84.556,91.055,88.741s128.8,17.2,148.8,10.23,30.795-5.58,30.795-5.58v18.034s.36,37.766-41.955,45.671-115.32,29.295-126.48,38.595H24.095s-12.195.155-12.865-12.865,0-78.74,0-78.74Z" transform="translate(2.41 19.437)"/>
+      <path id="Path_27" data-name="Path 27" class="cls-9" d="M441.678,3.271h0C439-1.868,433.823-.054,428.685,2.623L261.029,85.63a10.469,10.469,0,0,0-3.894,3.507c-6.363-1.093-14.725-1.5-23.13,4.049-11.373,7.506-7.8,20.41-25.78,28.47-8.389,3.759,24.815,5.495,36.421-.666,9.548-5.068,12.373-13.756,18.061-16.058a10.464,10.464,0,0,0,8.025-.7L435.594,14.171c5.138-2.678,8.757-5.766,6.08-10.9Z" transform="translate(45.615 0)"/>
+      <path id="Path_28" data-name="Path 28" class="cls-10" d="M206.88,122.781s16.325-4.956,25.106-16.426,23.25-10.435,29.45-13.845S440.248,1.343,440.248,1.343s-2.375-3.805-12.059,1.523S261.324,85.481,261.324,85.481a11.61,11.61,0,0,0-4.193,3.654s-17.585-4.3-27.989,8.517-2.871,13.512-21.77,24.471a1.3,1.3,0,0,0-.488.663Z" transform="translate(45.615 0.006)"/>
+    </g>
+  </g>
+</svg>

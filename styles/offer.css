@@ -1,0 +1,266 @@
+body {
+    overflow: visible;
+}
+
+.main_navigator {
+    width: 100%;
+    justify-content: space-between;
+}
+.offers {
+    width: 100%;
+    min-height: auto;
+    background-color: #fff;
+}
+
+.hamburger {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 33px;
+    width: auto;
+    justify-content: space-between;
+
+}
+
+@media (max-width: 1247px){
+    .navbar_items_container .button_main {
+        display: none;
+    }
+    .hamburger {
+        display: flex;
+        margin-left: 94%;
+    }
+    .navbar_items_container {
+        width: auto;
+    }
+}
+
+.hamburger_list {
+    right: -22px;
+}
+
+.hamburger_list {
+    justify-content: space-between;
+}
+
+.offers {
+    position: relative;
+    top: 80px;
+}
+
+.offer_wrapper {
+    padding: 30px 100px 30px 100px;
+    width: 100%;
+    min-height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.offer_img {
+    min-width: 56%;
+    max-width: 390px;
+    height: 100%;
+    overflow: hidden;
+    margin-right: 50px;
+    max-height: 500px;
+}
+
+.offer_img img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    border-radius: 40px;
+    max-height: 500px;
+}
+
+.offer_content {
+    min-width: 600px;
+    min-height: 430px;
+    padding: 30px;
+}
+
+.offer_content h1 {
+    font-size: 44px;
+    color: var(--navy);
+}
+
+.offer_content p {
+    width: 80%;
+    line-height: 35px;
+    font-size: 28px;
+    margin-top: 3%;
+    color: var(--navy);
+}
+
+.offer_content h4 {
+    font-size: 34px;
+    color: var(--navy);
+    margin-top: 2%;
+    font-weight: 600;
+}
+
+.check_offer {
+    background-color: var(--copper);
+    height: 59px;
+    width: 220px;
+    border-radius: 50px;
+    padding: 0; margin-top: 4%;
+    font-size: 35px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.608);
+}
+
+.check_offer:hover {
+    background-color: var(--navy);
+    transform: scale(1.05);
+} 
+
+.offer_content_reverse {
+    background-color: var(--);
+}
+
+.offer_reverse {
+    background-color: var(--mainBlue);
+}
+
+.offer_content_reverse {
+    margin-left: 2%;
+    width: 100%;
+}
+
+.offer_content_reverse p, .offer_content_reverse h1, .offer_content_reverse h4 {
+    color: #fff;
+}
+
+.offer_content_reverse p {
+    font-size: 23px;
+    width: 95%;
+    font-weight: 0;
+    color: var(--secondBlue);
+}
+
+.check_offer_reverse {
+    background-color: var(--yellow);
+}
+
+
+@media (max-width: 1320px) {
+    .check_offer {
+        width: 35%;
+        height: 32%;
+        font-size: 2.8vw;
+        padding: 1% 4% 1% 3%;
+    }
+    .offer_img {
+        min-width: 60%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .offer_img img {
+        border-radius: 4vw;
+    }
+    .offer_content h1 {
+        font-size: 3.6vw;
+    }
+    .offer_content p {
+        font-size: 2vw;
+        line-height:normal;
+    }
+    .offer_content h4 {
+        font-size: 3.4vw;
+        line-height:normal;
+    }
+    .offer_content {
+        min-width: 50%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        min-height: auto;
+    }
+    .offer_wrapper {
+        min-height: 120px;
+        height: auto;
+    }
+}
+
+@media (max-width: 1100px) {
+    .offer_content {
+        min-width: 55%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        min-height: auto;
+    }
+}
+
+@media (max-width: 900px) {
+    .offer_content {
+        min-width: 60%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        min-height: auto;
+    }
+}
+
+@media (max-width: 670px) {
+    .offer_content {
+        min-width: 70%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        min-height: auto;
+    }
+}
+
+@media (max-width: 560px) {
+    .offer_content {
+        min-width: 80%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        min-height: auto;
+    }
+}
+
+.offer_img_mobile {
+    display: none;
+}
+
+@media (max-width: 550px){
+    .offer_img {
+        display: none;
+    }
+    .offer_img_mobile {
+        display: block;
+        margin: 0;
+    }
+    .mobile_reformating {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+
+    }
+    .mobile_reformating p {
+        display: none;
+    }
+    .mobile_reformating h1 {
+        font-size: 7.5vw;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+    .mobile_reformating h4 {
+        font-size: 6vw;
+        margin-top: 8%;
+    }
+    .check_offer {
+        height: 49px;
+        width: 190px;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 410px) {
+    .offer_img {max-width: 290px;}
+}

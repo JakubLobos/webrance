@@ -1,0 +1,85 @@
+@import url("https://use.typekit.net/vrj4zaz.css");
+
+:root {
+    --mainBlue: #519AD4;
+    --secondBlue: #C5DEF1;
+    --navy: #214A6A;
+    --gray: #828282;
+    --copper: #D66853;
+    --yellow:#EDB458;
+}
+
+/* -- FONTS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid green; */
+}
+
+body, html {
+    scroll-behavior: smooth;
+    width: 100%;
+    min-height:100vh;
+    position:relative;
+	overflow-x:hidden;
+}
+
+body {
+    background-color: #519AD4;
+}
+
+/* FONTS */
+.font_bold {
+    font-family: open-sans,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.small_text {
+    font-family: open-sans,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font_desc {
+    font-family: open-sans,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.font_heading {
+    font-family: ofelia-text,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex_center_column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.landing_heading {
+    color: var(--navy);
+}
+
+.block_height {
+    min-height: 650px;
+}
+
+.hidden {
+    display: none;
+}

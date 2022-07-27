@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1922.195" height="930.105" viewBox="0 0 1922.195 930.105">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c5def1;
+      }
+
+      .cls-2 {
+        fill: #519ad4;
+      }
+    </style>
+  </defs>
+  <g id="falaSrodek" transform="translate(0 -1995.427)">
+    <path id="tlo2" class="cls-1" d="M0,2086.373S63.394,1737.325,862.611,1864.9s1059.585,0,1059.585,0v657.12s-327.386,413.246-882.99,166.213S0,2565.827,0,2565.827Z" transform="translate(0 158.572)"/>
+    <path id="tlo2-2" data-name="tlo2" class="cls-2" d="M0,2069.36s282.688-308.815,861.625-206.03,1058.375,0,1058.375,0v611.3s-392.593,383.764-947.562,153.957S0,2515.381,0,2515.381Z" transform="translate(0 182)"/>
+  </g>
+</svg>

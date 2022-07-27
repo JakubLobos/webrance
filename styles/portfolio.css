@@ -1,0 +1,10 @@
+.porfolio_main_list {
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.porfolio_main_list h3{
+    font-size: 30px;
+    color: var(--navy);
+}

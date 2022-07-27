@@ -1,0 +1,15 @@
+<svg id="Group_4" data-name="Group 4" xmlns="http://www.w3.org/2000/svg" width="1920" height="1213.37" viewBox="0 0 1920 1213.37">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #519ad4;
+      }
+
+      .cls-1 {
+        opacity: 0.33;
+      }
+    </style>
+  </defs>
+  <path id="tlo" class="cls-1" d="M34.042,196.748S531.427,84.1,746.242,306.6s239.688,833.74,979.1,933.482c91.688,12.368,228.7,8.812,228.7,8.812l-.223-463.492V36H34.042Z" transform="translate(-34.042 -36)"/>
+  <path id="tlo-2" data-name="tlo" class="cls-2" d="M0,153.955s532.207-95.09,747.355,101.882,240.059,738.081,980.62,826.379c74.8,8.918,192.026,9.411,192.026,9.411V-4.528H0Z" transform="translate(0 4.528)"/>
+</svg>

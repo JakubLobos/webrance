@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="361" height="203" viewBox="0 0 361 203">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3, .cls-4, .cls-6 {
+        fill: #5099d4;
+      }
+
+      .cls-3 {
+        opacity: 0.14;
+      }
+
+      .cls-6 {
+        font-size: 5px;
+        font-family: Ubuntu-Bold, Ubuntu;
+        font-weight: 700;
+      }
+
+      .cls-7 {
+        letter-spacing: 0.03em;
+      }
+
+      .cls-8 {
+        fill: #214a6a;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="PH" class="cls-1" width="361" height="203" transform="translate(760.372 1404.233)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_3" data-name="Mask Group 3" class="cls-2" transform="translate(-760.372 -1404.233)">
+    <g id="_1" data-name="1" transform="translate(765.193 1403.994)">
+      <rect id="Rectangle_37" data-name="Rectangle 37" class="cls-3" width="336.104" height="189.311" rx="15.5" transform="translate(0 13.076)"/>
+      <rect id="Rectangle_38" data-name="Rectangle 38" class="cls-4" width="336.104" height="189.311" rx="15.5" transform="translate(14.848)"/>
+      <g id="Group_22" data-name="Group 22" transform="translate(29.443 6.175)">
+        <rect id="Rectangle_39" data-name="Rectangle 39" class="cls-5" width="267.799" height="9.786" rx="4.893"/>
+        <text id="WWW" class="cls-6" transform="translate(7.099 6.943)"><tspan class="cls-7" x="0" y="0">WW</tspan><tspan y="0">W</tspan></text>
+      </g>
+      <path id="Path_29" data-name="Path 29" class="cls-5" d="M372.922,11.731l3.117-3.117a1.023,1.023,0,0,0-1.447-1.447l-3.117,3.117-3.117-3.117a1.023,1.023,0,0,0-1.447,1.447l3.117,3.117-3.117,3.117a1.022,1.022,0,1,0,1.443,1.447l3.117-3.117,3.117,3.117a1.022,1.022,0,1,0,1.443-1.447l-3.117-3.117Z" transform="translate(-35.372 -0.662)"/>
+      <path id="Line_4" data-name="Line 4" class="cls-5" d="M10.659,1.4H0A1.4,1.4,0,0,1-1.4,0,1.4,1.4,0,0,1,0-1.4H10.659A1.4,1.4,0,0,1,12.06,0,1.4,1.4,0,0,1,10.659,1.4Z" transform="translate(311.862 11.068)"/>
+      <g id="Group_23" data-name="Group 23" transform="translate(57.62 80.099)">
+        <path id="Path_30" data-name="Path 30" class="cls-8" d="M87.37,105.535l-15.552,5.884,15.552,5.829v6.1l-23.6-9.124v-5.509l23.6-9.073v5.884Z" transform="translate(-63.773 -89.713)"/>
+        <path id="Path_31" data-name="Path 31" class="cls-8" d="M137.022,89.072v40.494h-9.449V112.719h-18.2v16.847H99.927V89.072h9.449v15.063h18.2V89.072h9.449Z" transform="translate(-67.262 -88.693)"/>
+        <path id="Path_32" data-name="Path 32" class="cls-8" d="M158.96,97.281h-9.018V89.072h27.431v8.209h-8.964v32.29H158.96V97.281Z" transform="translate(-72.087 -88.693)"/>
+        <path id="Path_33" data-name="Path 33" class="cls-8" d="M225.512,129.526l-3.024-20.952L210.5,125.747h-1.459l-12.258-17.278-3.024,21.057h-9.343l6.264-40.874h1.135L209.8,113.059l17.657-24.406h1.135l6.264,40.874h-9.339Z" transform="translate(-75.413 -88.652)"/>
+        <path id="Path_34" data-name="Path 34" class="cls-8" d="M271.352,121.363v8.209H249.915V89.077h9.449v32.29h11.988Z" transform="translate(-81.733 -88.693)"/>
+        <path id="Path_35" data-name="Path 35" class="cls-8" d="M304.586,108.721v5.509l-23.6,9.124v-6.1l15.552-5.83-15.552-5.884V99.656l23.6,9.073Z" transform="translate(-84.731 -89.714)"/>
+        <path id="Path_36" data-name="Path 36" class="cls-8" d="M318.035,125.884h36.424v7.289H318.035Z" transform="translate(-88.305 -92.245)"/>
+      </g>
+    </g>
+  </g>
+</svg>

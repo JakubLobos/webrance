@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-16">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/main/icon.svg">
+    <title>Skontakuj sie z nami!</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/contact.css">
+</head>
+<body>
+    <nav id="navigator" class="main_navigator flex_center">
+        <a href="/index.html" class="navbar_logo_btn flex_center"><img src="/assets/main/logo2.svg" alt="webrance logo" class="navbar_logo_img"></a>
+        <div class="navbar_items_container ">
+            <a rel="follow" href="/index.html" data-navopt="start" class="button_main font_bold">Start</a>
+            <a rel="follow" href="/pl/portfolio.html" data-navopt="portfolio" class="button_main font_bold">Portfolio</a>
+            <a rel="follow" href="/pl/offer.html" data-navopt="offer" class="button_main font_bold">Oferta</a>
+            <a rel="follow" href="/pl/contact.html" data-navopt="contact" class="button_main font_bold btn_nav_filled">Kontakt</a>
+            <button data-navopt="hamburger" class="hamburger flex_center_column hidden">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
+        </div>
+    </nav>
+    <ol class="hamburger_list hidden flex_center_column">
+        <li class="hamburger_opt font_bold"><a href="/index.html">Start</a></li>
+        <li class="hamburger_opt font_bold"><a href="/pl/portfolio.html">Portfolio</a></li>
+        <li class="hamburger_opt font_bold"><a href="pl/offer.html">Oferta</a></li>
+        <li class="hamburger_opt font_bold"><a href="/pl/contact.html">Kontakt</a></li>
+    </ol>
+    <div class="rellax rellax_square_wrapper" data-rellax-speed="2">
+        <span class="rellax_square"></span>
+    </div>
+    <div class="rellax rellax_box_wrapper" data-rellax-speed="3">
+        <span class="rellax_box"></span>
+    </div>
+    <div class="rellax rellax_line_wrapper" data-rellax-speed="7">
+        <span class="rellax_line"></span>
+    </div>
+    <span class="rellax rellax_circle circle_left"></span>
+    <span class="rellax rellax_circle circle_clear circle_clear_left" data-rellax-speed="2"></span>
+    <section class="main_contact_hero">
+        <div class="form_container">
+            <h2 class="font_bold">Kontakt</h2>
+            <form id="contactform" action="https://formsubmit.io/send/kontakt@webrance.com" method="POST">
+                <input class="form_text_area" name="Klient" type="text" id="name" placeholder="Imię i nazwisko">
+                <input class="form_text_area" name="kontakt" type="text" id="email" placeholder="E-mail/numer telefonu">
+                <textarea class="form_text_area" name="Wiadomosc" id="comment" rows="3" placeholder="Twoja wiadomość"></textarea>   
+                <input name="_formsubmit_id" type="text" style="display:none">
+                <input class="send_form small_text" value="Wyślij" type="submit">
+            </form>
+        </div>
+        <div class="flex_center tell_us_heading_wrapper">
+        <span class="line_throught"></span><h4 class="font_bold tell_us_heading ">Albo skontaktuj się z nami bezpośrednio!</h4> <span class="line_throught"></span>
+        </div>
+        <div class="tell_us_box">
+            <div class="contact_data_cell">
+                <h4 class="font_bold flex">Jakub Łobos<p class="small_text">- programista</p></h4>
+                <p class="small_text">Tel: <a  class="small_text" href="tel:+48515549910">515 549 910</a></p>
+                <p class="small_text">E-mail: <a  class="small_text" href="mailto:jakublobos@webrance.com">jakublobos@webrance.com</a></p>
+            </div>
+            <div class="contact_data_cell">
+                <h4 class="font_bold flex">Piotr Janiszewski<p class="small_text">- programista</p></h4>
+                <p class="small_text">Tel: <a  class="small_text" href="tel:+48506278221">506 278 221</a></p>
+                <p class="small_text">E-mail: <a  class="small_text" href="mailto:piotrjaniszewski@webrance.com">piotrjaniszewski@webrance.com</a></p>
+            </div>
+            <div class="contact_data_cell">
+                <h4 class="font_bold flex">Michał Markiewicz<p class="small_text">- grafik</p></h4> 
+                <p class="small_text">Tel: <a  class="small_text" href="tel:+48733598612">733 598 612</a></p>
+                <p class="small_text">E-mail: <a  class="small_text" href="mailto:michalmarkiewicz@webrance.com">michalmarkiewicz@webrance.com</a></p>
+            </div>
+        </div>
+    </section>
+    <footer class="main_footer flex_center">
+        <div class="column_footer flex_center_column">
+            <a class="footer_nav small_text" rel="follow" href="">Start</a>
+             <a class="footer_nav small_text" rel="follow" href="">Portfolio</a>
+            <a class="footer_nav small_text" rel="follow" href="">Oferta</a>
+            <a class="footer_nav small_text" rel="follow" href="">Kontakt</a>
+        </div>
+        <div class="column_footer flex_center_column center_column_footer">
+            <img src="/assets/main/LogoOstateczne.svg" alt="" class="footer_logotype">
+            <p class="signed_webrance small_text">Designed and developed by Webrance</p>
+            <p class="signed_cr small_text">Webrance 2022 All Rights Reserved</p>
+        </div>
+        <div class="column_footer flex_center_column">
+            <a class="footer_nav footer_nav_right small_text" rel="follow" href="">Formularz kontaktowy</a>
+            <a class="footer_nav footer_nav_right small_text" rel="follow" href="">Szybka wycena</a>
+            <a class="footer_nav footer_nav_right small_text" rel="follow" href="">Obserwuj nas <img src="/assets/main/instagram-icon.svg" alt="instagram icon"></a>
+        </div>
+    </footer>
+    <script src="/js/rellax.min.js"></script>
+    <script src="/js/navbar.js"></script>
+    <script src="/js/contact.js"></script>
+    <script>
+        //default JS Setting
+        var rellax = new Rellax('.rellax', {
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+
+.main_aboutus_wrapper {
+    width: 100%;
+    min-height: 1000px;
+    background: #fff;
+    padding-top: 30px;
+}
+
+.aboutus_wrapper {
+    margin-top: 100px;
+    width: 100%;
+    color: var(--navy);
+}
+
+.aboutus_text_wrapper {
+    width: 70%;
+}
+
+.aboutus_text_wrapper h4 {
+    font-size: 55px;
+    margin-bottom: 50px;
+}
+
+.aboutus_text_wrapper p {
+    font-size: 25px;
+    opacity: 90%;
+}
+
+.line_aboutus {
+    display: block;
+    min-width: 37px;
+    min-height: 100%;
+    margin-right: 30px;
+    background-color: var(--mainBlue);
+}
+
+.team_member_card {
+    padding: 30px 40px 30px 40px;
+    text-align: center;
+    justify-content: start;
+    width: 505px;
+    height: 818px;
+    border-radius: 70px;
+    color: var(--navy);
+    transition: .3s;
+    background-color: #fff;
+}
+
+.team_member_card:hover {
+    transform: scale(1.02);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.308);
+}
+
+.card_hightlighted {
+    background-color: rgb(197, 222, 241);
+}
+
+.team_members_grid {
+    height: auto;
+    margin-top: 80px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 505px);
+    grid-template-rows: repeat(auto-fit, 818px);
+    padding-bottom: 100px;
+}
+
+.team_member_card_img {
+    overflow: hidden;
+    width: 320px;
+    height: 310px;
+    border-radius: 100%;
+    background-color: rgb(30, 29, 29);
+    margin: 0;
+}
+
+.team_member_card_img img {
+    width: 100%;
+    height: auto;
+}
+
+.team_member_card h3 {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.member_desc{
+    margin-top: 70px;
+    font-size: 25px;
+}
+
+.member_job {
+    margin-top: 1px;
+    font-size: 24px;
+}
+
+.contact_us_wrapper h4 {
+    margin-bottom: 30px;
+    max-width: 500px;
+    text-align: center;
+    color: var(--navy);
+    font-size: 30px;
+}
+
+.contact_us_wrapper a {
+    background-color: var(--copper);
+    color: #fff;
+    transition: .3s;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_us_wrapper {
+    height: 320px;
+}
+
+@media (max-width: 810px) {
+    .member_desc {
+        margin-top: 20px;
+    }
+    .aboutus_text_wrapper {
+        width: 90%;
+    }
+    .aboutus_text_wrapper p, .member_desc {
+        font-size: 20px;
+        opacity: 90%;
+        text-align: center;
+    }
+    .line_aboutus {
+        min-width: 20px;
+    }
+    .team_member_card_img {
+        max-width: 240px;
+        max-height: 280px;
+    }
+    .team_member_card_img img {
+        width: 240px;
+        height: 280px;
+    }
+    .team_member_card {
+        width: 320px;
+    }
+    .team_members_grid {
+        grid-template-columns: repeat(auto-fit, 320px);
+        grid-template-rows: repeat(auto-fit, 818px);
+    }
+}
+
+@media (max-width: 1249px){
+    .navbar_items_container .button_main {
+        display: none;
+    }
+    .hamburger {
+        display: flex;
+        margin-left: 94%;
+        position: relative;
+    }
+    .navbar_items_container {
+        width: auto;
+    }
+}

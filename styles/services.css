@@ -1,0 +1,386 @@
+body {
+    overflow: visible;
+}
+
+* {
+    z-index: 1;
+}
+
+.main_navigator {
+    width: 100%;
+    justify-content: space-between;
+}
+.offers {
+    width: 100%;
+    min-height: auto;
+    background-color: #fff;
+}
+
+.hamburger {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 33px;
+    width: auto;
+    justify-content: space-between;
+}
+
+@media (max-width: 1247px){
+    .navbar_items_container .button_main {
+        display: none;
+    }
+    .hamburger {
+        display: flex;
+        margin-left: 94%;
+    }
+    .navbar_items_container {
+        width: auto;
+    }
+}
+
+.hamburger_list {
+    right: -22px;
+}
+
+.hamburger_list {
+    justify-content: space-between;
+}
+
+.main_service_container {
+    width: 100%;
+    padding: 30px;
+    background-color: #fff;
+    min-height: 660px;
+}
+
+.service_content_container {
+    margin-top: 70px;
+
+}
+
+.service_img_cell {
+    min-width: 950px;
+    min-height: 460px;
+    border: 1px solid var(--gray);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service_content {
+    width: 68%;
+}
+
+.service_content h1, .service_content p {
+    color: var(--navy);
+    text-align: center;
+}
+
+.service_content h1 {
+    margin-top: 24px;
+    font-size: 47px;
+}
+
+.service_content p {
+    font-size: 27px;
+    margin-top: 50px;
+}
+
+.service_icon {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.service_icon img {
+    width: 95px;
+    margin: 0 15px 0 15px;
+}
+
+.price_range_column_wrapper {
+    width: 100%;
+}
+
+.price_range_column {
+    margin-top: 80px;
+    width: 100%;
+    max-width: 1600px;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.service_column {
+    justify-content: start;
+    width: 28%;
+    height: 470px;
+    background-color: var(--navy);
+    border-radius: 65px;
+    max-width: 450px;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+    transform: scaleY(0%);
+
+}
+
+.service_column h2 {
+    text-align: center;
+}
+
+.high_column {
+    height: 670px;
+}
+
+.medium_column {
+    height: 570px;
+}
+
+.price_wrapper {
+    margin-top: 35px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.681);
+}
+
+.price_wrapper p {
+    font-size: 25px;
+    align-self: flex-end;
+    margin-bottom: 13px;
+}
+
+.price_wrapper h3 {
+    font-size: 70px;
+    letter-spacing: 1px;
+}
+
+.service_column ol {
+    text-align: center;
+    list-style:none;
+    margin-top: 35px;
+    font-size: 25px;
+    line-height: 45px;
+}
+.service_contact_text{
+    margin: 110px 0 100px 0;
+}
+.service_contact_text h4 {
+    font-size: 30px;
+    color: var(--navy);
+}
+
+.button_contact {
+    width: 230px;
+    height: 60px;
+}
+
+.button_main:hover {
+    transform: scale(1.1);
+}
+
+.button_main:hover ~ .service_contact_text h4{
+    transform: scale(1.1);
+}
+
+.service_img_cell img {
+    width: 100%;
+    height: auto;
+}
+
+.rellax_circle {
+    position: absolute;
+    left: 3%;
+    top: 11%;
+    width: 80px;
+    height: 80px;
+    display: block;
+    background-color: var(--mainBlue);
+    border-radius: 100%;
+}
+
+.rellax_square {
+    width: 80px;
+    height: 80px;
+    display: block;
+    background-color: var(--yellow);
+    border-radius: 25%;
+    transform: rotate(15deg); 
+}
+
+.rellax_square_wrapper {
+    position: absolute;
+    right: 3%;
+    top: 22%;
+}
+
+.rellax_box {
+    width: 60px;
+    height: 60px;
+    display: block;
+    background-color: var(--copper);
+    transform: rotate(45deg); 
+}
+
+.rellax_box_wrapper {
+    position: absolute;
+    left: 9%;
+    top: 42%;
+}
+
+.circle_clear {
+    opacity: 50%;
+}
+
+.circle_clear_left {
+    top: 70%;
+    left: 1%;
+}
+
+.circle_clear_right {
+    top: 45%;
+    left: 76%;
+}
+
+@media (max-width: 1430px) {
+    .price_range_column_wrapper {
+        width: 100%;
+    }
+    
+    .price_range_column {
+        width: 100%;
+    }
+    
+    .service_column {
+        width: 29%;
+        height: auto;
+        border-radius: 4.5vw;
+        padding: 30px 20px 50px 20px;
+    }
+    
+    .service_column h2 {
+        font-size: 2.5vw;
+    }
+    
+    .high_column {
+        height: auto;
+        padding: 60px 0 60px 0;
+    }
+    
+    .medium_column {
+        height: auto;
+    }
+    .price_wrapper {
+        margin-top: 10px;
+    }
+    
+    .price_wrapper p {
+        font-size: 2vw;
+        margin-right: 5px;
+    }
+    
+    .price_wrapper h3 {
+        font-size: 3vw;
+    }
+    .service_column ol {
+        font-size: 1.7vw;
+        margin-top: 16px;
+    }
+    .service_column ol li {
+        line-height: 130%;
+    }
+}
+
+@media (max-width: 1060px) {
+    .main_service_container {
+        padding: 60px 5px 0 5px;
+    }
+    .service_contact_text {
+        margin-bottom: 0;
+        padding-bottom: 40px;
+    }
+    .service_img_cell {
+        width: 90%;
+        padding: 0px;
+        height: auto;
+        max-height: 400px;
+        margin: 0 5% 0 5%;
+    }
+    .service_content {
+        width: 90%;
+    }
+}
+
+@media (max-width: 649px) {
+    .service_content h1 {
+        font-size: 11vw;
+    }
+    .service_content p {
+        font-size: 6vw;
+        margin-top: 10%;
+        text-align:justify;
+    }
+    .service_column ol {
+        font-size: 2.8vw;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 1290px) {
+
+    .service_content h1 {
+        width: 100%;
+    }
+    .service_content {
+        width: 85%;
+    }
+}
+
+@media (max-width: 705px) {
+    .member_desc {
+        margin-top: 0px;
+    }
+    .price_wrapper p {
+        font-size: 3vw;
+    }
+    
+    .price_wrapper h3 {
+        font-size: 3.5vw;
+    }
+
+    .service_column h2 {
+        font-size: 4vw;
+        margin-top: 5px;
+    }
+
+    .service_column {
+        width: 33%;
+        height: auto;
+        border-radius: 25px;
+        padding: 15px 20px 20px 20px;
+    }
+}
+
+.warning_price_columns {
+    color: var(--navy);
+    background-color: #fff;
+    text-align: center;
+}
+
+@media (max-width: 375px) {
+    .service_icon img {
+        width: 75px;
+    margin: 0 10px 0 10px;
+    }
+}
+
+@keyframes ColumnsShowUp {
+    0% {
+        transform: scaleY(0%);
+        -webkit-transform: scaleY(0%);
+    }
+    50% {
+        transform: scaleY(115%);
+        -webkit-transform: scaleY(115%);
+    }
+    100% {
+        transform: scaleY(100%);
+        -webkit-transform: scaleY(100%);
+    }
+}
