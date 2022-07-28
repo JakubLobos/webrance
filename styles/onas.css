@@ -69,7 +69,7 @@
 .team_member_card_img {
     overflow: hidden;
     width: 320px;
-    height: 310px;
+    height: 320px;
     border-radius: 100%;
     background-color: rgb(30, 29, 29);
     margin: 0;
@@ -134,15 +134,17 @@
         min-width: 20px;
     }
     .team_member_card_img {
-        max-width: 240px;
-        max-height: 280px;
+        width: 240px;
+        height: 240px;
+        overflow: hidden;
     }
     .team_member_card_img img {
         width: 240px;
-        height: 280px;
+        height: 240px;
     }
     .team_member_card {
-        width: 320px;
+        margin-top: 30px;
+        width: 100%;
     }
     .team_members_grid {
         grid-template-columns: repeat(auto-fit, 320px);
