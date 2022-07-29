@@ -59,8 +59,8 @@ body {
 }
 
 .service_img_cell {
-    min-width: 950px;
-    min-height: 460px;
+    width: 950px;
+    height: 460px;
     border: 1px solid var(--gray);
     overflow: hidden;
     display: flex;
