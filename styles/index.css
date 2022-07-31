@@ -6,7 +6,7 @@
     width: 100%;
     height: 100vh;
     max-height: 1080px;
-    min-height: 735px;
+    min-height: 855px;
     min-width: 374px;
     background-color: #fff;
 }
@@ -45,7 +45,7 @@
 }
 
 .navbar_logo_btn:hover > .navbar_logo_img {
-    transform: scale(1.05) rotate(1deg);
+    transform: scale(1.02);
 }
 
 .navbar_scrolled {
@@ -85,7 +85,7 @@
     border: none;
     font-size: 28px;
     color: #fff;
-    border-radius: 18px;
+    border-radius: 28px;
     cursor: pointer;
     text-align: center;
     transition: .5s;
@@ -133,7 +133,7 @@
     z-index: 10;
     top: 8vw;
     width: 100vw;
-    height: 100%;
+    height: auto;
     align-items: center;
     margin-left: 3%;
     align-items: flex-start;
@@ -144,12 +144,12 @@
     right: 0%;
     top: -2%;
     width: 65%;
-    animation: bouncing 3s infinite;
+    animation: bouncing 4s infinite;
 }
 
 @keyframes bouncing {
     0%, 100% {
-        top: -3%;
+        top: -2%;
     }
     50% {
         top: 0%;
@@ -157,7 +157,7 @@
 }
 
 .landing_content {
-    width: 35%;
+    width: 34.5%;
     margin-top: 3vw;
     flex-direction: column;
 }
@@ -175,6 +175,7 @@
 }
 
 .hero_btn {
+    padding-top: 9px;
     margin-top: 50px;
     width: 210px;
     font-size: 29px;
@@ -189,7 +190,7 @@
 
 .hero_btn:hover {
     background-color: var(--copper);
-    box-shadow: none;
+    transform: scale(1.06);
 }
 
 .grid_service_container {
@@ -209,22 +210,36 @@
 }
 
 .service_box {
+    position: relative;
     width: auto;
     height: 250px;
 }
 
 .service_box img {
     height: auto;
-    width: 100%;
+    width: 360px;
 }
 
-.service_box_img_resize {
-    background-color: aliceblue;
-    height: 550px;
+/* nie jest to poprawny zabieg,ale takie grafiki, ze musialem tak zrobic */
+
+.positioned_service_1 {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-32%, -0%);
+    top: -15%;
+    width: 514px !important;
+    height: auto !important;
 }
 
-.service_box_img_resize img {
-    width: 480px;
+.positioned_service_2 {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-39%, -0%);
+    top: 0%;
+    width: 570px !important;
+    height: auto !important;
 }
 
 .service_cell h2 {
@@ -431,7 +446,7 @@
 }
 
 .slider_item  p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .slider_btn {
@@ -608,12 +623,13 @@
         display: none;
     }
     .landing_content h1 {
-        font-size: 46px;
+        font-size: 51px;
         line-height: normal;
-        margin-bottom: 10vw;
+        margin-bottom: 7vw;
     }
     .landing_content h2 {
-        font-size: 19px;
+        margin-top: 0;
+        font-size: 22px;
     }
     .aboutus_wrapper {
         width: 90%;
@@ -644,15 +660,18 @@
         right: -30%;
         width: 1150px;
     }
+    .landing_content {
+        width: 90vw;
+    }
     .landing_content h1 {
-        font-size: 41px;
+        font-size: 42px;
         line-height: normal;
         margin-bottom: 10vw;
         width: 100%;
 
     }
     .landing_content h2 {
-        font-size: 18px;
+        font-size: 20px;
         width: 85%;
     }
 }
@@ -814,16 +833,18 @@
         width: 100%;
         margin: 20px 20px 50px 20px; 
     }
+    .landing_content {
+        width: 90vw;
+    }
     .landing_content h1 {
-        font-size: 9vw;
+        font-size: 38px;
         line-height: normal;
-        width: 300px;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         margin-top: 0px;
     }
     .landing_content h2 {
-        font-size: 4.5vw;
-        width: 260px;
+        font-size: 18px;
+        width: 90vw;
     }
     .slider_item{
         min-width: 190px;
@@ -838,6 +859,28 @@
     .hero_btn {
         position: relative;
         bottom: 25%;
+    }
+}
+
+@media (max-width: 348px) {
+    .landing_content {
+        width: 90vw;
+    }
+    .landing_content h1 {
+        font-size: 34px;
+        line-height: normal;
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
+    .landing_content h2 {
+        font-size: 16px;
+        width: 85vw;
+    }
+    .hero_btn {
+        margin-top: 5%;
+        width: 170px;
+        height: 40px;
+        font-size: 20px;
     }
 }
 
@@ -866,6 +909,34 @@
 }
 
 @media (max-width: 405px){
+    .button_service {
+        margin-top: 30px;
+    }
+    .service_box img {
+        height: auto;
+        width: 100%;
+    }
+
+    .positioned_service_1 {
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        transform: translate(-32%, -0%);
+        top: -17%;
+        width: 130vw !important;
+        height: auto !important;
+    }
+    
+    .positioned_service_2 {
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        transform: translate(-39%, -0%);
+        top: -3%;
+        width: 151vw !important;
+        height: auto !important;
+    }
+
     .service_cell {
         display: flex;
         align-items: center;

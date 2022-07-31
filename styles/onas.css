@@ -7,13 +7,22 @@
 }
 
 .aboutus_wrapper {
+    text-align: start;
     margin-top: 100px;
     width: 100%;
     color: var(--navy);
 }
 
+.aboutus_wrapper h4 {
+    text-align: center;
+}
+
 .aboutus_text_wrapper {
     width: 70%;
+}
+
+.unvisible_container {
+    overflow: hidden;
 }
 
 .aboutus_text_wrapper h4 {
@@ -24,6 +33,17 @@
 .aboutus_text_wrapper p {
     font-size: 25px;
     opacity: 90%;
+    transform: translateX(-100%);
+    animation: aboutus_appear_text .6s forwards;
+}
+
+@keyframes aboutus_appear_text {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
 }
 
 .line_aboutus {
@@ -118,6 +138,10 @@
     height: 320px;
 }
 
+.contact_us_wrapper .button_main:hover {
+    background-color: var(--copper);
+}
+
 @media (max-width: 810px) {
     .member_desc {
         margin-top: 20px;
@@ -165,3 +189,4 @@
         width: auto;
     }
 }
+
