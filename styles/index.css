@@ -149,10 +149,10 @@
 
 @keyframes bouncing {
     0%, 100% {
-        top: -2%;
+        transform: translateY(2%);
     }
     50% {
-        top: 0%;
+        transform: translateY(-1%);
     }
 }
 
@@ -200,7 +200,7 @@
     justify-content: center;
     grid-template-columns: repeat(auto-fit, 380px);
     grid-template-rows: repeat(auto-fit, 330px);
-    grid-gap: 6vw;
+    grid-gap: 7vw;
 }
 
 .service_cell {
@@ -213,6 +213,7 @@
     position: relative;
     width: auto;
     height: 250px;
+    transform: scale(0.85);
 }
 
 .service_box img {
@@ -838,7 +839,7 @@
     }
     .landing_content h1 {
         font-size: 38px;
-        line-height: normal;
+        line-height: 37px;
         margin-bottom: 30px;
         margin-top: 0px;
     }
@@ -909,6 +910,13 @@
 }
 
 @media (max-width: 405px){
+    .landing_content h1 {
+        vertical-align:middle;
+        font-size: 38px;
+        line-height: 37px !important;
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
     .button_service {
         margin-top: 30px;
     }

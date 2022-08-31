@@ -170,8 +170,7 @@ body {
     padding: 20px;
     color: #fff;
     font-size: 20px;
-    transform: scaleY(0%);
-
+    opacity: 0%;
 }
 
 .service_column h2 {
@@ -423,15 +422,9 @@ body {
 
 @keyframes ColumnsShowUp {
     0% {
-        transform: scaleY(0%);
-        -webkit-transform: scaleY(0%);
-    }
-    50% {
-        transform: scaleY(115%);
-        -webkit-transform: scaleY(115%);
+        opacity: 0%;
     }
     100% {
-        transform: scaleY(100%);
-        -webkit-transform: scaleY(100%);
+        opacity: 100%;
     }
 }
