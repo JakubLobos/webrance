@@ -173,6 +173,10 @@ body {
     opacity: 0%;
 }
 
+.no_border {
+    border: none;
+}
+
 .service_column h2 {
     text-align: center;
 }
@@ -188,6 +192,7 @@ body {
 .price_wrapper {
     margin-top: 35px;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.681);
+    align-items: flex-start;
 }
 
 .price_wrapper p {
